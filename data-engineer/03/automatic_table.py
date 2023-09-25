@@ -10,7 +10,7 @@ directory = '/home/alukongo/Téléchargements/subject/customer'
 # Parcours des fichiers CSV dans le répertoire
 for filename in os.listdir(directory):
     if filename.endswith('.csv'):
-        print("table en cours de creation")
+        print("tables en cours de creation")
         table_name = os.path.splitext(filename)[0]
         file_path = os.path.join(directory, filename)
 
